@@ -1,7 +1,8 @@
 ## Sofifa webscraper using scrapy
 
-This directory contains the scrapy project and webscraper to get 
-all the attributes of all players from the [sofifa website](https://sofifa.com/).
+This directory contains the scrapy project used to collect individual player
+attributes from the [sofifa.com website](https://sofifa.com/) which has a database
+of stats relating to professional football players in the computer game FIFA.
 
 To run the webscraper, run the following command in the prompt:
 
@@ -25,13 +26,12 @@ To be courteous to the website, a download delay has been set
 (see settings.py). As such, it can take a long time to download
 everything so it is best run overnight.
 
-Alternatively, there is a very similar version of the dataset already
-curated and maintained [here](https://www.kaggle.com/karangadiya/fifa19)
-on the Kaggle website which I would recommend using instead to save you
- the time. 
+Alternatively, __there is a very similar version of the dataset already
+curated and maintained on the [Kaggle website](https://www.kaggle.com/karangadiya/fifa19)__
+which I would recommend using instead to save you the time. 
 
 I decided to collect the data myself (even though another version of the
 dataset is available already) in order to improve my webscraping skills 
-with the scrapy framework.
+with the scrapy framework and develop data pipelines.
 
 
