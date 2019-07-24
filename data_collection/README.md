@@ -1,4 +1,4 @@
-## Sofifa webscraper
+## Sofifa webscraper using scrapy
 
 This directory contains the scrapy project and webscraper to get 
 all the attributes of all players from the [sofifa website](https://sofifa.com/).
