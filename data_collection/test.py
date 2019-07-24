@@ -1,7 +1,8 @@
 """Functions to quickly see how incremental webscraper is progressing"""
-import json
 
 def count_data():
+    """Compares number of links stored and number of lines in the csv database"""
+    
     links = open('links_collected.txt').read().split('\n')
     links = [l for l in links if links != '']
     num_links = len(links)
