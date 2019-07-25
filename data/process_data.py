@@ -6,7 +6,6 @@ Cleaning steps include:
     - imputing the average 'value' or 'wage for players with missing data
     - reordering and dropping uncessary columns
 """
-
 import pandas as pd
 import numpy as np
 
@@ -86,7 +85,7 @@ def clean_raw_df(df):
                 'GK Handling','GK Kicking','GK Positioning','GK Reflexes']
 
 
-    final_df = df[keep_cols+ATTRIBUTES]
+    final_df = df[keep_cols + ATTRIBUTES]
     assert final_df.isnull().sum().all() == 0 
 
     return final_df
