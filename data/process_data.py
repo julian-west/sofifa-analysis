@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     logging.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
 
-    df = pd.read_csv("raw/data.csv")
+    df = pd.read_csv("0. raw/data.csv")
 
     logging.info('Cleaning data...')
 
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     logging.info('Dataframe cleaning completed')
 
     #save to processed data folder
-    pd.DataFrame(clean_df).to_csv("processed/data_clean.csv",index=False,encoding='utf-8-sig')
+    pd.DataFrame(clean_df).to_csv("1. processed/data_clean.csv",index=False,encoding='utf-8-sig')
     
     logging.info("File successfully saved in 'processed' folder")
 
