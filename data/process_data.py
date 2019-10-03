@@ -90,6 +90,20 @@ def clean_raw_df(df):
 
     return final_df
 
+def join_positions_data(df):
+    kaggle_df = pd.read_csv("0. raw/kaggle_data.csv")
+    kaggle_df = kaggle_df[['ID','Position']]
+    
+    df['player_id'] = df['player_id'].astype('int64')
+    
+    merged_df = df.merge(kaggle_df,how='inner',
+             left_on=['player_id'],
+             right_on=['ID'])
+    
+    del merged_df['ID']
+    
+    return merged_df
+
 
 if __name__ == '__main__':
 
@@ -102,9 +116,13 @@ if __name__ == '__main__':
     clean_df = clean_raw_df(df)
 
     logging.info('Dataframe cleaning completed')
+    
+    final_df = join_positions_data(df)
+    
+    logging.info('Dataframe join completed')
 
     #save to processed data folder
-    pd.DataFrame(clean_df).to_csv("1. processed/data_clean.csv",index=False,encoding='utf-8-sig')
+    pd.DataFrame(final_df).to_csv("1. processed/data_clean.csv",index=False,encoding='utf-8-sig')
     
     logging.info("File successfully saved in 'processed' folder")
 
