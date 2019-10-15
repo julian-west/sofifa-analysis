@@ -9,12 +9,11 @@ curated and maintained on the [Kaggle website](https://www.kaggle.com/karangadiy
 I would recommend using that dataset rather than running this webscraper to save you the time. 
 
 I decided to collect the data myself (even though another version of the
-dataset is available already) in order to improve my webscraping skills 
-with the scrapy framework and develop data pipelines.
+dataset is available already) as the other dataset did not have all the features I wished to model and it was a good opportunity improve my webscraping skills with the scrapy framework and develop data pipelines.
 
 ### Instructions
 
-To deploy the webscraper, run the following command in the prompt:
+To deploy the webscraper, after cloning the repository (make sure the 'links_collected.txt' file is deleted as the scraper will ignore players contained in that file) run the following command in the prompt:
 
 `scrapy crawl sofifa`
 
