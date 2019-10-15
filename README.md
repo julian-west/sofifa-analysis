@@ -12,8 +12,8 @@ In this notebook I will use a dataset of player attributes curated from the FIFA
 
 Being able to predict the value of each player and understanding the main drivers of the predictions has two main benefits:
 
-1. Football teams/scouts can **identify whether a target player is currently over or undervalued and what price they should be willing to pay** for a player of that quality (regardless of current form).
-2. Understanding **which factors most affect value could inform up and coming players which skills are most in demand in the market** and which skills they should focus on improving to increase their value.
+> 1. Football teams/scouts can identify whether a target player is currently over or undervalued and what price they should be willing to pay for a player of that quality (regardless of current form).
+> 2. Understanding which factors most affect value could inform up and coming players which skills are most in demand in the market and which skills they should focus on improving to increase their value.
 
 For this analysis I will carry out some basic exploratory data analysis to gain a high level insight into the features in the dataset, before preparing the data for modeling (data cleaning; train/test split; scaling etc..) and evaluate different regression models to predict the value of football players in the dataset.
 
