@@ -5,7 +5,7 @@
 
 ## Project Objective
 **Can the value of a football player be predicted from their playing attributes and meta data?**  
-**Which factors are most important for determining a player's market value?**
+**Which factors are most important for determining a player's market value?**  
 **Which players are over or undervalued compared to the market?**  
 
 In this notebook I will use a dataset of player attributes curated from the FIFA game's official website in order to answer the three questions above. While factors like player form and team results may have a short-term impact on the perceived value of a player, ultimately the value of a player should be linked to their fundamental skills and attributes - how good are their skills compared to others? 
