@@ -1,8 +1,7 @@
 # Predicting football player values from FIFA statistics
 **12th October 2019**
 
-**View final analysis notebook in nbviewer [here](https://nbviewer.jupyter.org/github/julian-west/sofifa-analysis/blob/master/predicting%20player%20value.ipynb){:target="_blank"}**
-
+**View final analysis notebook in nbviewer <a href="https://nbviewer.jupyter.org/github/julian-west/sofifa-analysis/blob/master/predicting%20player%20value.ipynb" target="_blank">here</a>**
 
 ## Project Objective
 **Can the value of a football player be predicted from their playing attributes and meta data?**  
