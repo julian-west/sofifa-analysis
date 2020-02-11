@@ -50,4 +50,4 @@ For this analysis I will carry out some basic exploratory data analysis to gain 
 	- folder contains scrapy webcrawler to get raw data from website  
 
 
-
+-------------------
