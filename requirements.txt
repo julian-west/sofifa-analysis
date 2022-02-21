@@ -1,6 +1,6 @@
 pandas==0.24.2
 numpy==1.16.2
-Scrapy==1.7.2
+Scrapy==1.8.1
 sklearn==0.20.3
 scipy==1.2.1
 shap==0.30.2
