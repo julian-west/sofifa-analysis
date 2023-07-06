@@ -2,7 +2,7 @@ pandas==0.24.2
 numpy==1.22.0
 Scrapy==1.8.2
 sklearn==0.20.3
-scipy==1.2.1
+scipy==1.10.0
 shap==0.30.2
 xgboost==0.90
 matplotlib==3.0.3
